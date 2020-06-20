@@ -11,8 +11,8 @@ using UnityEngine;
 public class BGScrollData
 {
     public Renderer Renderer; // Renderer컴포넌트와 연결
-    public float speed; // 움직이는 속도
-    public float offsetX; // 텍스처를 움직이기 위한 변수
+    public float speed;       // 움직이는 속도
+    public float offsetX;     // 텍스처를 움직이기 위한 변수
 }
 public class BGScroller : MonoBehaviour
 {
@@ -28,7 +28,7 @@ public class BGScroller : MonoBehaviour
         UpdateScroll();
     }
 
-    // 모든 배경에 SetTextureOffset메소드를 호출해 주는 메소드
+    // 모든 배경에 SetTextureOffset메소드를 호출
     void UpdateScroll()
     {
         for (int i = 0; i < ScrollDatas.Length; i++)
@@ -37,7 +37,7 @@ public class BGScroller : MonoBehaviour
         }
     }
 
-    // Offset를 변경해 주는 메소드
+    // Offset 변경
     void SetTextureOffset(BGScrollData scrollData)
     {
         // 이동량 계산 

@@ -3,5 +3,6 @@
   <component name="DiscordProjectSettings">
     <option name="show" value="true" />
     <option name="nameOverrideEnabled" value="true" />
+    <option name="description" value="Shooting" />
   </component>
 </project>
