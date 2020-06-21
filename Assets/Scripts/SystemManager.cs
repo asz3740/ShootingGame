@@ -33,13 +33,4 @@ public class SystemManager : MonoBehaviour
         instance = this;
     }
 
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-    }
 }

@@ -7,6 +7,7 @@ public class InputController : MonoBehaviour
     void Update()
     {
         UpdateInput();
+        UpdateMouse();
     }
 
     // 키 입력
@@ -35,5 +36,13 @@ public class InputController : MonoBehaviour
         }
         
         SystemManager.Instance.Player.ProcessInput(moveDirection);
+    }
+
+    void UpdateMouse()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            SystemManager.Instance.Player.Fire();
+        }
     }
 }
