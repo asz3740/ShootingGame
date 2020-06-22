@@ -7,15 +7,6 @@ public class EnemyFactory : MonoBehaviour
     public const string EnemyPath = "Prefabs/Enemy";
     
     Dictionary<string, GameObject> EnemyFileCache = new Dictionary<string, GameObject>();
-    void Start()
-    {
-    }
-
-    
-    void Update()
-    {
-        
-    }
 
     public GameObject Load(string resoucePath)
     {

@@ -13,18 +13,22 @@ public class Player : MonoBehaviour
 
     [SerializeField] 
     private BoxCollider boxCollider;
+    
 
     [SerializeField] 
     private Transform MainBGTransform;
 
+    [Header("총알 속성")]
+    
+    [SerializeField] 
+    private GameObject Bullet; // 총알
+    
     [SerializeField]
-    private Transform FireTransform;
+    private Transform FireTransform; // 발사 위치
+
     
     [SerializeField] 
-    private GameObject Bullet;
-    
-    [SerializeField] 
-    private float bulletSpeed = 1;
+    private float bulletSpeed = 1; // 총알 스피드
     void Start()
     {
         

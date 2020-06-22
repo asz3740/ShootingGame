@@ -38,6 +38,7 @@ public class InputController : MonoBehaviour
         SystemManager.Instance.Player.ProcessInput(moveDirection);
     }
 
+    //  마우스 입력
     void UpdateMouse()
     {
         if (Input.GetMouseButtonDown(0))

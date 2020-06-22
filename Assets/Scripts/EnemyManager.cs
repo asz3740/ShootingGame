@@ -7,12 +7,7 @@ public class EnemyManager : MonoBehaviour
     [SerializeField] private EnemyFactory enemyFactory;
     
     List<Enemy> enemies = new List<Enemy>();
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.L))

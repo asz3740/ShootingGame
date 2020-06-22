@@ -1365,6 +1365,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 131167538505443533, guid: 78f2bb95e6bfbc045ba42810627c9aac,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7306919377152232811, guid: 78f2bb95e6bfbc045ba42810627c9aac,
         type: 3}
       propertyPath: MainBGTransform
